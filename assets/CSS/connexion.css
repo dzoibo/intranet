@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../CSS/police/montserrat-light-webfont.woff2') format('woff2'),
+         url('../CSS/police/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+			}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../CSS/police/montserrat-light-webfont.woff2') format('woff2'),
+         url('../CSS/police/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
+
+.C_all
+{
+	background-color: #a5a8ad;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	
+}
+*{
+text-decoration: none;
+list-style-type: none;	
+}
+
+
+.C_first img
+{
+	max-height: 9em;	
+	position: relative;
+	margin-top: -1%;
+	margin-left: 0.5%;
+	cursor: pointer;
+
+}
+.C_p1
+{
+	 color: white;
+	 text-align: center;
+}
+.C_block0{
+	display: flex;
+	position: absolute;
+	width: 40%;
+	height: 25em;
+	transform: translate(-50%,-50%);
+	top: 55%;
+	left: 50%;
+	border-radius: 1em;
+	background-color: #548aa7;
+	
+	
+}
+ .C_block1{
+	 transform: translate(-50%,-50%);
+	 position: fixed;
+	 width: auto;
+	 height: auto;
+	top: 50%;
+	left: 50%;
+	font-size: 1em;
+	line-height: 25px;
+	
+}
+input
+{
+	height: 2.3em;
+	width: auto;
+	border-radius:0.5em;
+	box-sizing: border-box;
+}
+.C_user
+{
+	position: relative;
+}
+.C_user i
+{
+	position: absolute;
+	bottom: 0.2em;
+	left: 0.5rem;
+
+}
+.C_lock i
+{
+position: absolute;
+margin-top: -1.5rem;
+margin-left:0.5rem;
+}
+.C_user
+{
+	border-radius: 5px;
+}
+.C_user input
+{
+	padding-left: 2.5em;
+	border-color:#7db8d6; 
+}
+.C_lock input
+{
+	padding-left: 2.5em;
+	border-color:#7db8d6; 
+
+}
+.C_submit{
+	width: 70%;
+	height: auto;
+	box-sizing: border-box;
+	border-radius: 0.5em;
+	font-size: 1.2rem;
+	text-align: center;
+	background-color:#7db8d6;
+	cursor: pointer;
+	color: white;
+	border: none;
+	outline: none;
+	margin-left: 16%;
+}
+.fa-user:before {
+    content: "\f007"; 
+	color: #7db8d6;
+	font-size: 1.3rem;
+}
+  .fa-lock:before {
+  content: "\f023"; 
+ color:#7db8d6;
+ font-size: 1.3rem;
+}
+.C_user input:focus{
+border-color: dodgerblue;
+box-shadow: 0 0 2rem 0 dodgerblue;
+outline: none;
+
+}
+.C_lock input:focus{
+border-color: dodgerblue;
+box-shadow: 0 0 1em 0 dodgerblue;
+outline: none;
+
+}
+::placeholder{
+	font-size: 1rem;
+	font-family: 'montserratlight';
+	color: #7db8d6;
+}
+.C_error{
+	display: none;
+	color: white;
+	font-size: 1.2em;
+	margin-left: 23%;
+	margin-top: 10%;
+}

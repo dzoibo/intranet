@@ -1,0 +1,58 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1000px) and (min-width: 500.1px) {
+*{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	  list-style-type: none;
+
+}
+header img{
+	margin-top: 5px;
+    max-width: 22%;
+}
+.C_container{
+	width: 100%;
+}
+.C_first img{
+    width: 30%;
+    margin: 2% 33%;
+}
+.C_first{
+	justify-content: center;
+}
+.C_block0{
+width: 60%;
+  border-radius: 5px;
+  height: 380px;
+  margin-top: 15%;
+}
+.C_block1{
+	width: 70%;
+}
+.C_block1 input{
+	height: 38px;
+}
+.C_user i{
+	top: 12px;
+}
+.C_lock i{
+margin-top: -28px;
+}
+.C_error{
+	margin-left: 19%;
+}
+#C_error{
+	margin-left: 13%;
+    text-align: center;
+}
+
+}

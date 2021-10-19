@@ -1,0 +1,135 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1050px) and (min-width: 1000.1px) {
+	*{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.container2-box{
+	text-align: center;
+}
+.logo {
+ 
+    margin-right: 10px;
+}
+.wrapper-menu{
+width: 80% !important;
+}
+.wrapper-menu ul li{
+margin-right: 10px !important;
+}
+.wrapper-menu ul li a{
+  font-size: 1.3rem; 
+}
+
+.container3-col{
+	-ms-flex-wrap:wrap ;
+	    flex-wrap:wrap ;
+}
+.container3a{
+	width: 45% !important;
+	height: 300px !important;
+}
+.container4 {
+	-webkit-box-orient: vertical !important;
+	-webkit-box-direction: reverse !important;
+	    -ms-flex-direction: column-reverse !important;
+	        flex-direction: column-reverse !important;
+	    padding-left: 50px;
+}
+.container5a{
+	    font-size: 1.3rem;
+}
+.container6a-box{
+	    font-size: 1.3rem;
+}
+.container-footer{
+ font-size: 1.2rem;
+}
+.container4-box{
+	width: 90% !important;
+	text-align: center;
+	height: 40vh !important;
+margin-left: 18px;
+font-size: 1.4rem;
+    line-height: 37px;
+}
+.box2-biographie{
+	height: 60vh !important;
+	    margin-bottom: 30px;
+}
+.container-caroussel1 img {
+       background-size: cover;
+    height: 500px !important;
+}
+.container-caroussel1 {
+	    margin-left: 10% !important;
+
+}
+.box3-enseignement {
+       position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+    width: 88%;
+    height: 320px;
+    margin-top: 14.8rem;
+    margin-left: 5%;
+    line-height: 25px;
+    font-family: 'opensans-bold';
+    font-size: 1.8rem;
+    border-radius: 5px;
+}
+.container3a .valeur-box0.front{
+	margin-left: 80px;
+}
+.asso-container1 {
+	height: 600px;
+}
+.asso-container1-col{
+	    font-size: 2.2rem;
+    line-height: 43px;
+    top: 201px;
+}
+.asso-container1-col h2{
+	    font-size: 2.4rem;
+		text-decoration: underline;
+
+}
+.video-content1{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.video-container1-box1{
+	width: 100%;
+}
+.video-conatiner-icon {
+    height: 50px;
+    bottom: 351px;
+    left: 45%;
+    width: auto;
+}
+.content-box1-flex{
+	width: 100%;
+	margin: 7px 0px 0px 0px;
+}
+.video-container1-box1 button{
+width: 100%;
+}
+.video-conatiner-icon i{
+ font-size: 6rem !important;
+}
+.video-min{
+margin-right: 21% !important;
+margin-top: -1%;
+font-size: 1.1rem;
+}
+
+}
